@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Page with cover image
 author: Tao He
 date: 2022-05-24
@@ -19,4 +19,4 @@ a `cover` field to the page metadata:
   layout: post
 + cover: /assets/jekyll-gitbook/dinosaur.gif
   ---
-```
+``` -->

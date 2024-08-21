@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Wide tables
 author: Tao He
 date: 2022-06-26
@@ -33,4 +33,4 @@ Will be rendered as
 |1|2|3|4|5|6|7|8|
 |1|2|3|4|5|6|7|8|
 
-</div>
+</div> -->

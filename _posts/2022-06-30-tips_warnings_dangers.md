@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Tips, Warnings, and Dangers
 author: Tao He
 date: 2022-06-30
@@ -64,4 +64,4 @@ Using a `{: .block-danger}` attribute:
 {: .block-danger }
 
 [1]: https://discordjs.guide/popular-topics/canvas.html#setting-up-napi-rs-canvas
-[2]: https://kramdown.gettalong.org/quickref.html#block-attributes
+[2]: https://kramdown.gettalong.org/quickref.html#block-attributes -->
