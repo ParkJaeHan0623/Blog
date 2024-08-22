@@ -28,8 +28,11 @@ console.groupEnd(); //그룹으로 묶기 끝
 // 소스코드 실행    Ctrl + Alt + N
 ```
 # 02-변수와 데이터 타입
->전역변수
+
+### 전역변수
+
 ```javascript
+
 // 1)변수의 선언과 할당
 
 // 변수의 선언
@@ -61,8 +64,11 @@ console.log(myNumber3);
 // 동일 변수 재선언
 var myNumber3 = 456;
 console.log(myNumber3);
+
 ```
->지역변수
+
+### 지역변수
+
 ```javascript
 // 1) 선언, 할당
 
@@ -84,7 +90,9 @@ console.log(myNumber2);
 // let myNumber3 = 10;
 // console.log(myNumber3);
 ```
->상수
+
+### 상수
+
 ```javascript
 
 // 상수
@@ -94,15 +102,16 @@ console.log(MY_VALUE1);
 // const로 선언된 변수이므로 값을 변경할 수 없다(에러)
 MY_VALUE1 = 1;
 ```
->데이터타입
+### 데이터타입
 ```javascript
 ```
->형식문자
+### 형식문자
 ```javascript
 ```
->변수출력
+### 변수출력
 ```javascript
 ```
+
 
 # 03-연산자
 
@@ -112,50 +121,23 @@ MY_VALUE1 = 1;
 # 05-기본문법 활용
 
 # 06-배열
->배열 만들기
 
->배열 원소접근
+### 배열 만들기
 
->반복문 활용
+### 배열 원소접근
 
->원소의 총합,평균
+### 반복문 활용
 
->최대값
+### 원소의 총합,평균
 
->역순 배치
+### 최대값
 
->선택정렬
-```javascript
-const data = [3, 5, 1, 4, 2];
-console.log(data);
+### 역순 배치
 
-for(let i =0;i<data.length-1;i++){
-    for(let j = i+1; j<data.length;j++){
+### 정렬
 
-        if(data[i] > data[j]){
-            const tmp = data[i];
-            data[i] = data[j];
-            data[j] = tmp
-        }
-    }
-}
-console.log(data);
+> 선택정렬
 
-for(let i =0;i<data.length-1;i++){
-    for(let j = i+1; j<data.length;j++){
-
-        if(data[i] < data[j]){
-            const tmp = data[i];
-            data[i] = data[j];
-            data[j] = tmp
-        }
-    }
-}
-
-console.log(data);
-```
-
->버블정렬
 ```javascript
 const data = [3, 5, 1, 4, 2];
 console.log(data);
@@ -173,7 +155,29 @@ for(let i =0; i<data.length-1;i++){
 }
 console.log("결과:",data);
 ```
->2차배열
+
+> 버블정렬
+
+```javascript
+const data = [3, 5, 1, 4, 2];
+console.log(data);
+
+for(let i =0; i<data.length-1;i++){
+    for(j=0; j<data.length-1-i;j++){
+        if(data[j]>data[j+1]){
+            const tmp = data[j];
+            data[j]=data[j+1];
+            data[j+1]=tmp;
+
+            console.log("%d회차",i+1,data);    
+        }
+    }
+}
+console.log("결과:",data);
+```
+
+### 2차배열
+
 ```javascript
 const a =[1,2];
 const b =[4,5,6,7];
@@ -202,7 +206,8 @@ console.log(arr3);
 const arr4 = new Array(new Array(10,20,30),new Array(50,60,70));
 console.log(arr4);
 ```
->2차배열 탐색
+> 2차배열 탐색
+
 ```javascript
 const a =[1,2];
 const b =[4,5,6,7];
@@ -231,7 +236,8 @@ console.log(arr3);
 const arr4 = new Array(new Array(10,20,30),new Array(50,60,70));
 console.log(arr4);
 ```
->가변배열
+> 가변배열
+
 ```javascript
 const a = [1,3,5,7,9];
 const b = [2,4,6];
@@ -249,6 +255,7 @@ for(let i = 0; i<arr.length; i++){
 ```
 
 # 07-JSON
->변수 그룹
+### 변수 그룹
+
 ```javascript
 ```
