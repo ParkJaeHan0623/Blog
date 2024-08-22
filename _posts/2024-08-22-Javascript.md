@@ -1,7 +1,7 @@
 ---
 title: Javascript
 author: ParkJaehan
-date: 2024-08-16
+date: 2024-08-22
 category: Javascript
 layout: post
 ---
