@@ -50,9 +50,11 @@ require(['gitbook', 'jQuery'], function (gitbook, $) {
 
         // expand current selected chapter's children
         // expand(activeChapter.parents(CHAPTER));
-        activeChapter.find(ARTICLE_CHILDREN).closest(FOLDABLE).each(function () {
-            expand($(this));
-        });
+        
+        // 하위 노드가 부모노드를 클릭했을 때 펼쳐짐
+        // activeChapter.find(ARTICLE_CHILDREN).closest(FOLDABLE).each(function () {
+        //     expand($(this));
+        // });
     }
 
     var toggle = function ($chapter) {
